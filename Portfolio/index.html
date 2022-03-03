@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- ================ UNICONS ================== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ================ SWIPER CSS ================== -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- ============== CSS =============== -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- ================ HEADER ================== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo"><span>M.</span>Qədir</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active_link">
+                            <i class="uil uil-estate nav_icon"></i>Anasəhifə
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i>Haqqımda
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="uil uil-file-alt nav_icon"></i>Biliklərim
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link">
+                            <i class="uil uil-briefcase-alt nav_icon"></i>Xidmətlərim
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class="uil uil-scenery nav_icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contactme" class="nav_link">
+                            <i class="uil uil-message nav_icon"></i>Əlaqə
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+
+
+            <div class="nav_btns">
+
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================ MAIN ================== -->
+    <main class="main">
+        <!-- ================== HOME ====================== -->
+
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <div id="tooltip">
+                            <span id="tooltipText">Linkedin</span>
+                            <a href="#" target="_blank" class="home_social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                        </div>
+
+                        <div id="tooltip">
+                            <span id="tooltipText">Facebook</span>
+                            <a href="#" target="_blank" class="home_social-icon">
+                                <i class="uil uil-facebook-f"></i>
+                            </a>
+                        </div>
+
+                        <div id="tooltip">
+                            <span id="tooltipText">Github</span>
+                            <a href="#" target="_blank" class="home_social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home_img">
+                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home_blob-img" x='18' y='-2' xlink:href="img/kesme.png" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home_data">
+                        <h1 class="home_title"> <span>Salam, mənim adım </span> Məmmədzadə Qədirdir.</h1>
+                        <h3 class="home_subtitle ">Mən : <span class="typing"></span> </h3>
+
+                        <p class="home_description">Müxtəlif struktur və dizaynlarda veb saytların hazırlanmasını
+                            həyata keçirirəm. Bu sahədə xidmətlərimi keyfiyyətli edəcək biliklərə sahibəm.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Mənimlə əlaqə<i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Aşağı sürüşdürün</span>
+                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================== ABOUT ====================== -->
+
+        <section class="about section" id="about">
+            <h2 class="section_title">Haqqımda</h2>
+            <span class="section_subtitle">Mən kiməm</span>
+
+            <div class="about_container container grid">
+                <img src="img/about.png" alt="" class="about_img">
+
+                <div class="about_data">
+                    <p class="about_description">
+                        Mən Məmmədzadə Qədir Cümşüd oğlu 1997-ci il 7 dekabrda Sabirabad rayonunun Şəhriyar
+                        kəndində dünyaya gəlmişəm. Orta təhsilimi Şəhriyar kənd M.Məlikov adına tam orta məktəbində
+                        almışam.
+                        Ali təhsilliyəm, bakalavr və magistr dərəcələri üzrə təhsil dərəcəsinə sahibəm.
+                    </p>
+
+                    <div class="about_info">
+                        <div>
+                            <span class="about_info-title">01+</span>
+                            <span class="about_info-name">İl <br> iş təcrübəsi</span>
+                        </div>
+
+                        <div>
+                            <span class="about_info-title">02+</span>
+                            <span class="about_info-name">Davam edən <br> proyekt</span>
+                        </div>
+
+                        <div>
+                            <span class="about_info-title">04+</span>
+                            <span class="about_info-name">Şirkətdə <br>iş təcrübəsi</span>
+                        </div>
+                    </div>
+
+                    <div class="about_buttons">
+                        <a download="" href="pdf/Qedir.Front.pdf" class="button button--flex">
+                            CV-ni yüklə<i class="uil uil-download-alt button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================== SKILLS ====================== -->
+
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Biliklərim</h2>
+            <span class="section_subtitle">Mənim texniki biliklərim</span>
+
+            <div class="skills_container container grid">
+                <div>
+                    <!-- ================== SKILLS 1 ====================== -->
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="uil uil-brackets-curly skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Front-end Veb Developer</h1>
+                                <span class="skills_subtitle">1 ildən artıq</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">HTML</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CSS</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Javascript</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">JQuery</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_jquery"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Bootstrap 4</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_bts"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">SASS / SCSS</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_sass"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">React JS</h3>
+                                    <span class="skills_number">50%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_react"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- ================== SKILLS 2 ====================== -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-server-network skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Dizayn</h1>
+                                <span class="skills_subtitle">1 ildən artıq</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Adobe Photoshop</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_photoshop"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Adobe Illustrator</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_illustrator"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Adobe XD</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_xd"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">AutoCad</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_autocad"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">3DS MAX</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_3dmax"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Corona Render</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_corona"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!-- ================== SKILLS 3 ====================== -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-swatchbook skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Rəqəmsal Marketinq</h1>
+                                <span class="skills_subtitle">1 ildən artıq</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Google Ads</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_goadds"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Google Analystics</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_analystics"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Google Search Console</h3>
+                                    <span class="skills_number">50%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_console"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Tag Manager</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_tagman"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Email Marketing</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_email"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Social Media</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_social"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Facebook Ads</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_fb"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">İnstagram Ads</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_instagram"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================== QUALIFICATION ====================== -->
+
+        <section class="qualification section">
+            <h2 class="section_title">Şəxsi İnkişaf</h2>
+            <span class="section_subtitle">Təhsil və iş həyatım</span>
+
+            <div class="qualification_container container">
+                <div class="qualification_tabs">
+                    <div class="qualification_button button--flex qualification_active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification_icon"></i>
+                        Təhsil
+                    </div>
+
+                    <div class="qualification_button button--flex " data-target='#work'>
+                        <i class="uil uil-briefcase-alt qualification_icon"></i>
+                        İş Təcrübəsi
+                    </div>
+                </div>
+
+                <div class="qualification_sections">
+                    <!-- ========================== QUALIFICATION CONTENT 1 ===================== -->
+                    <div class="qualification_content qualification_active" data-content id="education">
+                        <!-- ========================== QUALIFICATION 1 ===================== -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Azərbaycan Texniki Universiteti</h3>
+                                <span class="qualification_subtitle">Kompüter Mühəndisliyi (Əyani)</span><br>
+                                <span class="qualification_subtitle">Bakalavr</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2015-2019
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <!-- ========================== QUALIFICATION 2 ===================== -->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Azərbaycan Dövlət İqtisad Universiteti</h3>
+                                <span class="qualification_subtitle">Sosial Media Marketinq (Əyani)</span><br>
+                                <span class="qualification_subtitle">Magistr</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019-2021
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- ========================== QUALIFICATION CONTENT 2 ===================== -->
+                    <div class="qualification_content" data-content id="work">
+                        <!-- ========================== QUALIFICATION 1 ===================== -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Freelance SMM</h3>
+                                <span class="qualification_subtitle">Bələdçi Təhsil Mərkəzi</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    12.2021-davam edir
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <!-- ========================== QUALIFICATION 2 ===================== -->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">SMM Menecer</h3>
+                                <span class="qualification_subtitle">RG Group reklam agentliyi</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    10.2021-12.2021
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!-- ========================== QUALIFICATION 3 ===================== -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">İnteryer Dizayner</h3>
+                                <span class="qualification_subtitle">Gold Construction 2020</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    07.2021-09.2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================== SERVICES ====================== -->
+
+        <section class="services section" id="services">
+            <h2 class="section_title">Mənim Xidmətlərim</h2>
+            <span class="section_subtitle">Nə Təklif Edirəm </span>
+
+            <div class="services_container container grid">
+
+                <!-- ================== SERVICES 1 ====================== -->
+                <div class="services_content">
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">Veb <br>Dizayn</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        Açıqlamanı Oxu
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Veb Dizayn</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>1. Bütün veb dizayn xidmətlərinin göstərilməsi</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>2. Mobil cihazlara uyğun responsiv veb saytların hazırlanması</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>3. Mobil cihaz tətbiqlərinin hazırlanması</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>4. Figma, Adobe XD kimi proqramlarla veb dizayn üzlüklərinin hazırlanması</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ================== SERVICES 2 ====================== -->
+                <div class="services_content">
+                    <div>
+                        <i class="uil uil-pen services_icon"></i>
+                        <h3 class="services_title">Sosial Media <br>Marketinq</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        Açıqlamanı Oxu
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">SMM </h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>1. Səhifələr üçün bütün SMM xidmətlərinin göstərilməsi</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>2. Sosial Media hesablarının effektiv idarə olunması</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>3. Reklamlarda düzgün hədəfləmələrin edilməsi</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>4. Həftəlik və aylıq hesabatların təhvil verilməsi</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ================== SERVICES 3 ====================== -->
+                <div class="services_content">
+                    <div>
+                        <i class="uil uil-palette services_icon"></i>
+                        <h3 class="services_title">Qrafik və İnteryer <br>Dizayn</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        Açıqlamanı Oxu
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Qrafik və İnteryer Dizayn </h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>1. Kreativ Loqoların hazırlanması</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>2. Səhifələr üçün zövqlü postların hazırlanması</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>3. Qrafik dizayn proqramları vasitəsilə kreativ CV-lərin hazırlanması</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>4. Detal və Ev çertyojlarının hazırlanması</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>5. Ən son dəblərə uyğun mənzillərin İnteryer dizayn xidməti</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- ================== PORTFOLIO ====================== -->
+
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">Mənim işlərim</span>
+
+            <div class="portfolio_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- ================== PORTFOLIO 1 ====================== -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="img/portfolio1.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Modern Vebsite</h3>
+                            <p class="portfolio_description">Praktika üçün hazırlanmış və vektorial
+                                şəkillərdən istifadə edilmiş Vebsite
+                            </p>
+                            <a href="" class="button button--flex button--small portfolio_button">
+                                Demo
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ================== PORTFOLIO 2 ====================== -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="img/portfolio2.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Creativ CV</h3>
+                            <p class="portfolio_description">Adobe İllustrator proqramı ilə hazırlanmış
+                                CV. Bu cv-ni yuxarıdakı Cv yüklə düyməsini istifadə edərək yükləyib incələyə bilərsiniz
+                            </p>
+                            <a href="" class="button button--flex button--small portfolio_button">
+                                Demo
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ================== PORTFOLIO 3 ====================== -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="img/portfolio3.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">İnstagram Posteri</h3>
+                            <p class="portfolio_description">Təhsil səhifəsi üçün hazırlanmış
+                                instagram postu
+                            </p>
+                            <a href="" class="button button--flex button--small portfolio_button">
+                                Demo
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ADD ARROWS -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- SWIPER PAGINATION -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- ================== PROJECT IN MIND ====================== -->
+
+        <section class="project section">
+            <div class="project_bg">
+                <div class="project_container container grid">
+                    <div class="project_data">
+                        <h2 class="project_title">Əgər yeni proyektləriniz varsa</h2>
+                        <p class="project_description">Aşağıdakı əlaqə düyməsi vasitəsilə mənimlə əlaqə saxlaya
+                            bilərsiniz</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Mənimlə Əlaqə
+                            <i class="uil uil-message project_icon button_icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="img/project.png" alt="" class="project_img">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================== CONTACT US ====================== -->
+
+        <section class="contact section" id="contactme">
+            <h2 class="section_title">Əlaqə</h2>
+            <span class="section_subtitle">Formu doldurun</span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Telefon</h3>
+                            <span class="contact_subtitle">+994 (51) 407-63-45</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">qedir.memmedzade2.97@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-map-marker contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Ünvan</h3>
+                            <span class="contact_subtitle">Bakı şəh. Yasamal ray, Əsəd Əhmədov küç</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form action="" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Ad, Soyad</label>
+                            <input type="text" class="contact_input">
+                        </div>
+
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input">
+                        </div>
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Proyekt adı</label>
+                        <input type="text" class="contact_input">
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Mesaj</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="" class="button button--flex">
+                            Mesajınızı göndərin
+                            <i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================ FOOTER ================== -->
+
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">M.<span>Qedir</span></h1>
+                    <span class="footer_subtitle">Front-end Veb Developer</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Xidmətlərim</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Əlaqə</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer_social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" class="footer_social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer_copy">&#169; M.Qedir. Bütün hüquqlar qorunur</p>
+        </div>
+    </footer>
+
+    <!-- ================ SCROLL TOP ================== -->
+
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup-icon"></i>
+    </a>
+
+    <!-- ================ SWIPER JS ================== -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- ================ TYPED JS ================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- ============== MAIN JS =============== -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
